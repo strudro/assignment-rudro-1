@@ -77,12 +77,12 @@
 }
 .info-under-content{
     width: 1140px;
-    height: 1395px;
+    height: 1530px;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding: 20px 180px 126px 200px;
+    padding: 0px 180px 126px 300px;
     border-radius: 16px;
     background: rgba(13, 19, 33, 0.02);
 }
@@ -149,9 +149,9 @@ margin: 0px 10px;
     background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
 }
 .content-info {
-        width: 850px;
-    height: 300px;
-    isplay: flex;
+    width: 850px;
+    height: 330px;
+    display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
