@@ -58,7 +58,7 @@
     height: 66px;
     margin: 32px 0px;
 }
-.btn-hero{
+.btn-hero a{
     color: rgb(255, 255, 255);
     font-family: Azeret Mono;
     font-size: 20px;
@@ -69,6 +69,7 @@
     border-radius: 8px;
     background: rgb(13, 19, 33);
     padding: 21px 24px 21px 24px;
+    text-decoration: none;
     }
 /* This is section 2 design (web development) */
 #info-content{
@@ -598,3 +599,70 @@ margin: 0px 16px;
     text-align: center;
 }
 /* This is Footer design */
+#end{
+width: 1920px;
+height: 100px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 32px 150px 32px 150px;
+border-radius: 16px;
+background: rgba(13, 19, 33, 0.03);
+}
+.end-con{
+    width: 1500px;
+    height: 36px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    margin: 32px 0px;
+}
+.end-text{
+width: 500px;
+height: 24px;
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: center;
+padding: 0px;
+margin: 0px 10px;
+}
+.end-text h2{
+    width: 500px;
+    height: 24px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0px;
+    margin: 0px 16px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.icon{
+position: static;
+width: 157.01px;
+height: 36px;
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: center;
+padding: 0px;
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 0px 10px;
+gap: 28px;
+}
+.icon-img-end{
+width: 36px;
+height: 36px;
+}
