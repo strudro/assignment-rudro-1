@@ -3,11 +3,12 @@
     font-family: "Azeret Mono", monospace;
     font-optical-sizing: auto;
     font-style: normal;
-    }
-    *{
+}
+*{
         margin: 0;
         padding: 0;
-    }
+}
+/* This is section 1 design (hero) */
 #hero{
     background-image: url(../assets/Hero-bg.png);
     width: 1920px;
@@ -69,6 +70,7 @@
     background: rgb(13, 19, 33);
     padding: 21px 24px 21px 24px;
     }
+/* This is section 2 design (web development) */
 #info-content{
     margin: 100px auto;
     display: flex;
@@ -200,22 +202,28 @@ margin: 0px 10px;
     padding: 12px 20px 12px 20px;
 }
 .info-btn button{
-    color: rgb(13, 19, 33);
-font-family: Azeret Mono;
-font-size: 20px;
-font-weight: 500;
-line-height: 23px;
-letter-spacing: 0%;
-text-align: center;
-padding: 12px 20px 12px 20px;
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    padding: 12px 20px 12px 20px;
 }
+.info-btn button a {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-decoration: none;
+}
+/* This is section 3 design (insperation) */
 #inspiration{
     width: 1920px;
     height: 800px;
     display: flex;
     justify-content: center;
     align-items: center;
-}
 }
 .ins-content{
     width: 1140px;
@@ -283,4 +291,171 @@ padding: 12px 20px 12px 20px;
     width: 100%;
     height: 100%;
     border-radius: 16px;
+}
+/* This is section 4 design (current target) */
+#target{
+    width: 1920px;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tar-content{
+    width: 1140px;
+    height: 463px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0px;
+    margin: 10px 0px;
+}
+.tar-text{
+    width: 946px;
+    height: 115px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0px;
+    margin: 48px 0px;
+}
+.tar-text h1{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center;
+    width: 852px;
+    height: 39px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0px;
+    margin: 24px 0px;
+}
+.tar-text p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+    width: 852px;
+    height: 52px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0px;
+    margin: 24px 0px;
+}
+.tar-cart{
+    width: 1140px;
+    height: 450px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0px;
+    margin: 81px 0px 0px 0px;
+}
+.tar-cart-con{
+    width: 364px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 40px;
+    margin: 0px 24px;
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+}
+.tar-com{
+    position: static;
+    width: 284px;
+    height: 220px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0px;
+    margin: 32px 0px;
+}
+.tar-img{
+    width: 39.68px;
+    height: 56px;
+    margin: 24px 0px;
+}
+.tar-cart-text{
+    width: 284px;
+    height: 96px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 0px;
+    margin: 7px 0px 60px 0px;
+}
+.tar-com h3{
+    position: static;
+    width: 284px;
+    height: 36px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 0px;
+    margin: 8px 0px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.tar-com p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+    opacity: 0.7;
+    width: 284px;
+    height: 52px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 0px;
+    margin: 8px 0px;
+}
+.target-btn{
+    width: 284px;
+    height: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 0px;
+}
+.target-btn span a{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 700;
+line-height: 19px;
+letter-spacing: 0%;
+text-align: left;
+border-style: none;
+text-decoration-line: underline;
 }
